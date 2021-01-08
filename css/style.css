@@ -1,0 +1,98 @@
+		body{
+	font-family:arial;
+	font-size:15px;
+	line-height:1.6em;
+	/*background-color:#555757;*/
+	color:#fff;
+}	
+
+li{
+	list-style:none;
+}
+/*MY CHOICE STARTS HERE*/
+body {
+	background-image:url("wall6.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+/*header{
+	background-color: rgba(182,182,182,0.4);
+}
+main{
+	background-color: rgba(182,182,182,0.4);
+}
+footer{
+	background-color: rgba(182,182,182,0.4);
+}
+
+input[type='submit']{
+	border-radius:10px;
+	height: 30px;
+	width: 70px;
+	font-size:18px;
+	border:none;
+}
+/*MY CHOICE END HERE*/
+a{
+	text-decoration:none;
+}
+/*
+label{
+	display:inline-block;
+	width:180px;
+}*/
+
+input[type='text']{
+	width:97%;
+	padding:4px;
+	border-radius:5px;
+	border:1px solid #ccc;
+}
+
+input[type='number']{
+	width:50px;
+	padding:4px;
+	border-radius:5px;
+	border:1px solid #ccc;
+}
+
+.container{
+	width:60%;
+	margin:0 auto;
+	overflow:auto;
+}	
+
+header{
+	border-bottom:3px #f4f4f4 solid;
+}
+
+footer{
+	border-top:3px #f4f4f4 solid;
+	text-align:center; 
+	padding-top:5px;
+}
+
+main{
+	padding-bottom:20px;
+}
+
+a.start{
+	display:inline-block;
+	color:#666;
+	background:#f4f4f4;
+	border:1px dotted #ccc;
+	padding:6px 13px;
+}
+
+.current{
+	padding:10px;
+	background:#333232;
+	border:1px dotted #ccc;
+	margin:20px 0 10px 0;
+}
+
+@media only screen and (max-width:960px){
+	.container{
+		width:80%;
+	}
+}
