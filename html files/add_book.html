@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Add Book</title>
+    <style type="text/css">
+      div.dropdown-menu:hover {display:block}
+	  header {margin-top:2%}
+    </style>
+
+  </head>
+<body>
+
+<a class="navbar-brand" href="#" style="color:white; font-size:40px; font-weight:bold">IIIT Kota Library</a>
+
+	<header>
+		<div class="container">
+			<h1>Add New Book</h1>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<h2>Book Information</h2>
+			<form action="Add_Book.php" method="post">
+				<p>
+					<label>Book Id: </label>
+					<input type="number" value="<?php echo $next; ?>"name="book_id" />
+				</p>
+				<p>
+					<label>Book Title: </label>
+					<input type="text" name="book_title" />
+				</p>
+				<p>
+					<label>Author Name: </label>
+					<input type="text" name="author_name" />
+				</p>
+				<p>
+					<label>Quantity: </label>
+					<input type="number" name="quantity" />
+				</p>
+				<p>
+					<label>Cost: </label>
+					<input type="number" name="cost" />
+				</p>
+				<p>
+					<input type="submit" name="submit" value="Submit"/>
+				</p>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			Copyright &copy; 2018, Quizzer
+		</div>
+	</footer>
+	</body>
+</html>
